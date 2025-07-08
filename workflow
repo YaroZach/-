@@ -1,3 +1,4 @@
+'''mermaid
 graph TD
     A([开始]) --> B1[拼多多API抽数]
     A --> B2[ERP系统抽数]
