@@ -2,7 +2,7 @@
 从拼多多后台接口抽取销售数据，从erp系统接口抽取运营数据，从供应商平台抽取采购数据，计算滚动成本及盈亏数据。
 --
 # 项目流程
-'''mermaid
+```mermaid
 graph TD
     A([开始]) --> B1[拼多多API抽数]
     A --> B2[ERP系统抽数]
@@ -49,4 +49,4 @@ graph TD
     %% 异常处理
     classDef red fill:#ffe6e6,stroke:#ff6666
     class E,F,G red
-'''
+```
